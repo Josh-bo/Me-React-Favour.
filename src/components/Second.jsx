@@ -40,7 +40,17 @@ const Second = () => {
         {
           allStudents.map((item)=>(
             <>
-            <div>{item.name} {item.school}</div>
+            <table className='table'>
+              <tr>
+                <th>NAME</th>
+                <th>SCHOOL</th>
+              </tr>
+              <tr>
+                <td>{item.name}</td>
+                <td>{item.school}</td>
+              </tr>
+            </table>
+            {/* <div>{item.name} {item.school}</div> */}
             </>
           ))
         }
