@@ -31,29 +31,26 @@ const Second = () => {
   return (
       <>
       {number == 8 ? <div>even number</div> : <div>Odd number</div>}
-      <button onClick={increment} className='btn btn-warning mx-2'>Increment</button>
-      <button onClick={decrement} className='btn btn-danger'>Decrement</button>
+      <button onClick={increment} className='btn btn-success mx-2'>Increment</button>
+      <button onClick={decrement} className='btn btn-warning'>Decrement</button>
       <button onClick={restart} className='btn btn-danger mx-2'>Restart</button>
         <div>{first}</div>
 
 
-        {
-          allStudents.map((item)=>(
-            <>
             <table className='table'>
               <tr>
                 <th>NAME</th>
                 <th>SCHOOL</th>
               </tr>
-              <tr>
+        {
+          allStudents.map((item)=>(
+            <tr>
                 <td>{item.name}</td>
                 <td>{item.school}</td>
               </tr>
-            </table>
-            {/* <div>{item.name} {item.school}</div> */}
-            </>
           ))
         }
+        </table>
       </>
   );
 }
