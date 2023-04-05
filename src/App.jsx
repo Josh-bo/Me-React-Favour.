@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Corders from './components/Corders'
 import Second from './components/Second'
+import Fetch from './components/Fetch'
 // import useState from 'react'
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
 
   return (
     <>
-       <Navbar/>
+       {/* <Navbar/>
        <Corders /> 
-       <Second />    
+       <Second />     */}
+       <Fetch/>
     </>
     // <div className="App">
     //   <div>

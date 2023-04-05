@@ -1,7 +1,6 @@
 import React from 'react';
 import  {useState} from 'react';
 
-
 const Second = () => {
     let myName = "Joshua";
     let mySchool = "SQI";
@@ -37,14 +36,16 @@ const Second = () => {
         <div>{first}</div>
 
 
-            <table className='table'>
+            <table className='table table-striped table-hover table-bordered'>
               <tr>
+                <th>S/N</th>
                 <th>NAME</th>
                 <th>SCHOOL</th>
               </tr>
         {
-          allStudents.map((item)=>(
+          allStudents.map((item, i)=>(
             <tr>
+                <td>{i+1}</td>
                 <td>{item.name}</td>
                 <td>{item.school}</td>
               </tr>
