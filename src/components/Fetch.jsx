@@ -24,6 +24,10 @@ const Fetch = () => {
     <p className='text-danger'>I'm a baaboo, <span className='text-primary'>I live in the zoo.</span></p>
     <button onClick={getData}>Get Info💯. </button>
 
+    <div className='container'>
+        <div className='row mx-auto text-center'>
+            <div className='col-12'>
+
     <table className='table table-striped table-bordered mt-4 table-hover text-center'>
         <tr>
             <th>S/N</th>
@@ -45,6 +49,9 @@ const Fetch = () => {
         ))
     }
     </table>
+    </div>
+</div>
+</div>
     </>
   );
 }
