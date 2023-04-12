@@ -8,7 +8,7 @@ const Fetch = () => {
     const [response, setresponse] = useState([]);
 
     const getData = () => {
-        axios.get(endPoint1)
+        axios.get(endPoint)
         .then((result) => {
             console.log(result);
             console.log(result.data);
