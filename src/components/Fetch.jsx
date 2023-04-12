@@ -20,13 +20,13 @@ const Fetch = () => {
     }
   return (
     <>
-    <h1>Fetch API</h1>
-    <p className='text-danger'>I'm a baaboo, <span className='text-primary'>I live in the zoo.</span></p>
-    <button onClick={getData}>Get Info💯. </button>
 
     <div className='container'>
         <div className='row mx-auto text-center'>
             <div className='col-12'>
+    <h1>Fetch API</h1>
+    <p className='text-danger'>I'm a baaboo, <span className='text-primary'>I live in the zoo.</span></p>
+    <button onClick={getData}>Get Info💯. </button>
 
     <table className='table table-striped table-bordered mt-4 table-hover text-center'>
         <tr>

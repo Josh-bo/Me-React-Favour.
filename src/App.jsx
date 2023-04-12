@@ -6,6 +6,8 @@ import Navbar from './components/Navbar'
 import Corders from './components/Corders'
 import Second from './components/Second'
 import Fetch from './components/Fetch'
+import {Route, Routes, BrowserRouter as Router} from 'react-router-dom'
+
 // import useState from 'react'
 
 function App() {
@@ -16,7 +18,14 @@ function App() {
        {/* <Navbar/>
        <Corders /> 
        <Second />     */}
-       <Fetch/>
+       {/* <Fetch/> */}
+
+       <Route>
+         <Routes>
+           <Route path=''></Route>
+         </Routes>
+       </Route>
+       
     </>
     // <div className="App">
     //   <div>
