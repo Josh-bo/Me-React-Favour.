@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
+import Navbar from './Navbar';
 
 const Fetch = () => {
     const endPoint = "https://jsonplaceholder.typicode.com/users"
@@ -20,7 +21,7 @@ const Fetch = () => {
     }
   return (
     <>
-
+    <Navbar/>
     <div className='container'>
         <div className='row mx-auto text-center'>
             <div className='col-12'>
